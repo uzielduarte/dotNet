@@ -1,4 +1,4 @@
-﻿namespace Languagebasic
+﻿namespace Calculator
 {
     partial class Form1
     {
@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.FlowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnPorcentaje = new System.Windows.Forms.Button();
             this.btnClearElement = new System.Windows.Forms.Button();
@@ -53,14 +55,30 @@
             this.btnZero = new System.Windows.Forms.Button();
             this.btnDot = new System.Windows.Forms.Button();
             this.btnEqual = new System.Windows.Forms.Button();
-            this.FlowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.lblResult = new System.Windows.Forms.Label();
-            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.lblInput = new System.Windows.Forms.Label();
-            this.FlowLayoutPanel1.SuspendLayout();
-            this.FlowLayoutPanel2.SuspendLayout();
+            this.lblEntrada = new System.Windows.Forms.Label();
+            this.lblOperacion = new System.Windows.Forms.Label();
+            this.flowLayoutPanel2.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
+            this.FlowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.Controls.Add(this.lblEntrada);
+            this.flowLayoutPanel2.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(11, 73);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(350, 48);
+            this.flowLayoutPanel2.TabIndex = 3;
+            // 
+            // flowLayoutPanel3
+            // 
+            this.flowLayoutPanel3.Controls.Add(this.lblOperacion);
+            this.flowLayoutPanel3.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(12, 12);
+            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(350, 55);
+            this.flowLayoutPanel3.TabIndex = 4;
             // 
             // FlowLayoutPanel1
             // 
@@ -91,10 +109,10 @@
             this.FlowLayoutPanel1.Controls.Add(this.btnZero);
             this.FlowLayoutPanel1.Controls.Add(this.btnDot);
             this.FlowLayoutPanel1.Controls.Add(this.btnEqual);
-            this.FlowLayoutPanel1.Location = new System.Drawing.Point(55, 254);
+            this.FlowLayoutPanel1.Location = new System.Drawing.Point(8, 147);
             this.FlowLayoutPanel1.Name = "FlowLayoutPanel1";
-            this.FlowLayoutPanel1.Size = new System.Drawing.Size(336, 176);
-            this.FlowLayoutPanel1.TabIndex = 1;
+            this.FlowLayoutPanel1.Size = new System.Drawing.Size(351, 164);
+            this.FlowLayoutPanel1.TabIndex = 5;
             // 
             // btnPorcentaje
             // 
@@ -155,7 +173,6 @@
             this.btnReciproco.TabIndex = 4;
             this.btnReciproco.Text = " 1/x";
             this.btnReciproco.UseVisualStyleBackColor = true;
-            this.btnReciproco.Click += new System.EventHandler(this.BtnReciproco_Click);
             // 
             // btnPowerOfTwo
             // 
@@ -189,7 +206,6 @@
             this.btnDiv.TabIndex = 7;
             this.btnDiv.Text = "÷";
             this.btnDiv.UseVisualStyleBackColor = true;
-            this.btnDiv.Click += new System.EventHandler(this.BtnSum_Click);
             // 
             // btnSevent
             // 
@@ -202,7 +218,7 @@
             this.btnSevent.TabIndex = 8;
             this.btnSevent.Text = "7";
             this.btnSevent.UseVisualStyleBackColor = true;
-            this.btnSevent.Click += new System.EventHandler(this.Button17_Click);
+            this.btnSevent.Click += new System.EventHandler(this.BtnOne_Click);
             // 
             // btnEight
             // 
@@ -212,7 +228,7 @@
             this.btnEight.TabIndex = 9;
             this.btnEight.Text = "8";
             this.btnEight.UseVisualStyleBackColor = true;
-            this.btnEight.Click += new System.EventHandler(this.Button17_Click);
+            this.btnEight.Click += new System.EventHandler(this.BtnOne_Click);
             // 
             // btnNine
             // 
@@ -222,7 +238,7 @@
             this.btnNine.TabIndex = 10;
             this.btnNine.Text = "9";
             this.btnNine.UseVisualStyleBackColor = true;
-            this.btnNine.Click += new System.EventHandler(this.Button17_Click);
+            this.btnNine.Click += new System.EventHandler(this.BtnOne_Click);
             // 
             // btnMult
             // 
@@ -232,7 +248,6 @@
             this.btnMult.TabIndex = 11;
             this.btnMult.Text = "x";
             this.btnMult.UseVisualStyleBackColor = true;
-            this.btnMult.Click += new System.EventHandler(this.BtnSum_Click);
             // 
             // btnFour
             // 
@@ -245,7 +260,7 @@
             this.btnFour.TabIndex = 12;
             this.btnFour.Text = "4";
             this.btnFour.UseVisualStyleBackColor = true;
-            this.btnFour.Click += new System.EventHandler(this.Button17_Click);
+            this.btnFour.Click += new System.EventHandler(this.BtnOne_Click);
             // 
             // btnFive
             // 
@@ -255,7 +270,7 @@
             this.btnFive.TabIndex = 13;
             this.btnFive.Text = "5";
             this.btnFive.UseVisualStyleBackColor = true;
-            this.btnFive.Click += new System.EventHandler(this.Button17_Click);
+            this.btnFive.Click += new System.EventHandler(this.BtnOne_Click);
             // 
             // btnSix
             // 
@@ -265,7 +280,7 @@
             this.btnSix.TabIndex = 14;
             this.btnSix.Text = "6";
             this.btnSix.UseVisualStyleBackColor = true;
-            this.btnSix.Click += new System.EventHandler(this.Button17_Click);
+            this.btnSix.Click += new System.EventHandler(this.BtnOne_Click);
             // 
             // btnSubtract
             // 
@@ -275,7 +290,6 @@
             this.btnSubtract.TabIndex = 15;
             this.btnSubtract.Text = "-";
             this.btnSubtract.UseVisualStyleBackColor = true;
-            this.btnSubtract.Click += new System.EventHandler(this.BtnSum_Click);
             // 
             // btnOne
             // 
@@ -288,7 +302,7 @@
             this.btnOne.TabIndex = 16;
             this.btnOne.Text = "1";
             this.btnOne.UseVisualStyleBackColor = true;
-            this.btnOne.Click += new System.EventHandler(this.Button17_Click);
+            this.btnOne.Click += new System.EventHandler(this.BtnOne_Click);
             // 
             // btnTwo
             // 
@@ -298,7 +312,7 @@
             this.btnTwo.TabIndex = 17;
             this.btnTwo.Text = "2";
             this.btnTwo.UseVisualStyleBackColor = true;
-            this.btnTwo.Click += new System.EventHandler(this.Button17_Click);
+            this.btnTwo.Click += new System.EventHandler(this.BtnOne_Click);
             // 
             // btnTree
             // 
@@ -308,7 +322,7 @@
             this.btnTree.TabIndex = 18;
             this.btnTree.Text = "3";
             this.btnTree.UseVisualStyleBackColor = true;
-            this.btnTree.Click += new System.EventHandler(this.Button17_Click);
+            this.btnTree.Click += new System.EventHandler(this.BtnOne_Click);
             // 
             // btnSum
             // 
@@ -318,7 +332,6 @@
             this.btnSum.TabIndex = 19;
             this.btnSum.Text = "+";
             this.btnSum.UseVisualStyleBackColor = true;
-            this.btnSum.Click += new System.EventHandler(this.BtnSum_Click);
             // 
             // Button21
             // 
@@ -340,7 +353,7 @@
             this.btnZero.TabIndex = 21;
             this.btnZero.Text = "0";
             this.btnZero.UseVisualStyleBackColor = true;
-            this.btnZero.Click += new System.EventHandler(this.Button17_Click);
+            this.btnZero.Click += new System.EventHandler(this.BtnOne_Click);
             // 
             // btnDot
             // 
@@ -350,7 +363,7 @@
             this.btnDot.TabIndex = 22;
             this.btnDot.Text = ".";
             this.btnDot.UseVisualStyleBackColor = true;
-            this.btnDot.Click += new System.EventHandler(this.Button17_Click);
+            this.btnDot.Click += new System.EventHandler(this.BtnOne_Click);
             // 
             // btnEqual
             // 
@@ -360,69 +373,51 @@
             this.btnEqual.TabIndex = 23;
             this.btnEqual.Text = "=";
             this.btnEqual.UseVisualStyleBackColor = true;
-            this.btnEqual.Click += new System.EventHandler(this.BtnEqual_Click);
             // 
-            // FlowLayoutPanel2
+            // lblEntrada
             // 
-            this.FlowLayoutPanel2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.FlowLayoutPanel2.Controls.Add(this.lblResult);
-            this.FlowLayoutPanel2.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.FlowLayoutPanel2.Location = new System.Drawing.Point(55, 209);
-            this.FlowLayoutPanel2.Name = "FlowLayoutPanel2";
-            this.FlowLayoutPanel2.Size = new System.Drawing.Size(333, 27);
-            this.FlowLayoutPanel2.TabIndex = 2;
-            this.FlowLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.FlowLayoutPanel2_Paint);
+            this.lblEntrada.AutoSize = true;
+            this.lblEntrada.Location = new System.Drawing.Point(334, 15);
+            this.lblEntrada.Margin = new System.Windows.Forms.Padding(5, 15, 3, 15);
+            this.lblEntrada.Name = "lblEntrada";
+            this.lblEntrada.Size = new System.Drawing.Size(13, 13);
+            this.lblEntrada.TabIndex = 0;
+            this.lblEntrada.Text = "0";
             // 
-            // lblResult
+            // lblOperacion
             // 
-            this.lblResult.AutoSize = true;
-            this.lblResult.Location = new System.Drawing.Point(315, 5);
-            this.lblResult.Margin = new System.Windows.Forms.Padding(5);
-            this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(13, 13);
-            this.lblResult.TabIndex = 0;
-            this.lblResult.Text = "0";
-            this.lblResult.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // flowLayoutPanel3
-            // 
-            this.flowLayoutPanel3.Controls.Add(this.lblInput);
-            this.flowLayoutPanel3.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(58, 61);
-            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(330, 52);
-            this.flowLayoutPanel3.TabIndex = 3;
-            // 
-            // lblInput
-            // 
-            this.lblInput.AutoSize = true;
-            this.lblInput.Location = new System.Drawing.Point(327, 0);
-            this.lblInput.Name = "lblInput";
-            this.lblInput.Size = new System.Drawing.Size(0, 13);
-            this.lblInput.TabIndex = 0;
+            this.lblOperacion.AutoSize = true;
+            this.lblOperacion.Location = new System.Drawing.Point(334, 15);
+            this.lblOperacion.Margin = new System.Windows.Forms.Padding(3, 15, 3, 15);
+            this.lblOperacion.Name = "lblOperacion";
+            this.lblOperacion.Size = new System.Drawing.Size(13, 13);
+            this.lblOperacion.TabIndex = 0;
+            this.lblOperacion.Text = "0";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(471, 442);
-            this.Controls.Add(this.flowLayoutPanel3);
-            this.Controls.Add(this.FlowLayoutPanel2);
+            this.ClientSize = new System.Drawing.Size(371, 375);
             this.Controls.Add(this.FlowLayoutPanel1);
-            this.MaximizeBox = false;
+            this.Controls.Add(this.flowLayoutPanel3);
+            this.Controls.Add(this.flowLayoutPanel2);
             this.Name = "Form1";
-            this.Text = "Exterminator Calculator";
-            this.FlowLayoutPanel1.ResumeLayout(false);
-            this.FlowLayoutPanel2.ResumeLayout(false);
-            this.FlowLayoutPanel2.PerformLayout();
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.flowLayoutPanel2.ResumeLayout(false);
+            this.flowLayoutPanel2.PerformLayout();
             this.flowLayoutPanel3.ResumeLayout(false);
             this.flowLayoutPanel3.PerformLayout();
+            this.FlowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
         internal System.Windows.Forms.FlowLayoutPanel FlowLayoutPanel1;
         internal System.Windows.Forms.Button btnPorcentaje;
         internal System.Windows.Forms.Button btnClearElement;
@@ -448,10 +443,8 @@
         internal System.Windows.Forms.Button btnZero;
         internal System.Windows.Forms.Button btnDot;
         internal System.Windows.Forms.Button btnEqual;
-        internal System.Windows.Forms.FlowLayoutPanel FlowLayoutPanel2;
-        internal System.Windows.Forms.Label lblResult;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
-        private System.Windows.Forms.Label lblInput;
+        private System.Windows.Forms.Label lblEntrada;
+        private System.Windows.Forms.Label lblOperacion;
     }
 }
 

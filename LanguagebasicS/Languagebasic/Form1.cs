@@ -37,20 +37,22 @@ namespace Languagebasic
 
         private void Button17_Click(object sender, EventArgs e)
         {
-            Button btnOne = (Button)sender;
+            
 
             if(lblResult.Text.Equals("0") || isOperation)
             {
                 lblResult.Text = "";
             }
-            if(btnOne.Text.Equals(".", StringComparison.CurrentCultureIgnoreCase))
+            isOperation = false;
+            Button btnOne = (Button)sender;
+            if (btnOne.Text.Equals(".", StringComparison.CurrentCultureIgnoreCase))
             {
                 if(lblResult.Text.Contains("."))
                 {
                     return;
                 }
             }
-            lblInput.Text += btnOne.Text;
+            lblResult.Text += btnOne.Text;
             
         }
 
@@ -63,21 +65,20 @@ namespace Languagebasic
         {
             Button btnSum = (Button)sender;
 
-            if(result == 0)
+            if(result == 0 || isOperation)
             {
                 result = Double.Parse(lblResult.Text);
-                lblInput.Text = lblResult + " " + btnSum.Text;
-                operation = btnSum.Text;
+                
             }else
             {
-                lblInput.Text = lblResult.Text + " " + btnSum.Text;
-                isOperation = true;
+                doOperation();
             }
-            lblInput.Text = lblResult + " " + btnSum.Text;
+            operation = btnSum.Text;
             isOperation = true;
+            lblInput.Text = lblResult.Text + operation;
         }
 
-        private void doOperation(string operation)
+        private void doOperation()
         {
 
             switch (operation)
@@ -94,13 +95,27 @@ namespace Languagebasic
                 case "÷":
                     double temp = Double.Parse(lblResult.Text);
                     if (result == 0 || temp == 0)
+                    {
                         lblResult.Text = "Undefined";
+                        return;
+                    }
                     else if (temp == 0)
+                    {
                         lblResult.Text = "Error";
+                        return;
+                    }else
                     result /= temp;
                     break;
+                default:
+                    break;
             }
-            isOperation = false;
+            lblResult.Text = result.ToString();
+            lblInput.Text = "";
+        }
+
+        private void BtnEqual_Click(object sender, EventArgs e)
+        {
+            doOperation();
         }
     }
 }

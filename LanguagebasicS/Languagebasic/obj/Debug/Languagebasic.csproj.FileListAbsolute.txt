@@ -8,3 +8,13 @@ C:\Users\Sistemas-08\source\repos\LanguagebasicS\Languagebasic\obj\Debug\Languag
 C:\Users\Sistemas-08\source\repos\LanguagebasicS\Languagebasic\obj\Debug\Languagebasic.csproj.CoreCompileInputs.cache
 C:\Users\Sistemas-08\source\repos\LanguagebasicS\Languagebasic\obj\Debug\Languagebasic.exe
 C:\Users\Sistemas-08\source\repos\LanguagebasicS\Languagebasic\obj\Debug\Languagebasic.pdb
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\LanguagebasicS\Languagebasic\bin\Debug\Languagebasic.exe.config
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\LanguagebasicS\Languagebasic\bin\Debug\Languagebasic.exe
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\LanguagebasicS\Languagebasic\bin\Debug\Languagebasic.pdb
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\LanguagebasicS\Languagebasic\obj\Debug\Languagebasic.csprojAssemblyReference.cache
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\LanguagebasicS\Languagebasic\obj\Debug\Languagebasic.Form1.resources
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\LanguagebasicS\Languagebasic\obj\Debug\Languagebasic.Properties.Resources.resources
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\LanguagebasicS\Languagebasic\obj\Debug\Languagebasic.csproj.GenerateResource.cache
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\LanguagebasicS\Languagebasic\obj\Debug\Languagebasic.csproj.CoreCompileInputs.cache
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\LanguagebasicS\Languagebasic\obj\Debug\Languagebasic.exe
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\LanguagebasicS\Languagebasic\obj\Debug\Languagebasic.pdb
