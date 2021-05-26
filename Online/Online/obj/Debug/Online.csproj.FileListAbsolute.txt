@@ -8,3 +8,4 @@ C:\Users\Sistemas-08\Documents\Git repos\dotNet\Online\Online\obj\Debug\Online.c
 C:\Users\Sistemas-08\Documents\Git repos\dotNet\Online\Online\obj\Debug\Online.csproj.CoreCompileInputs.cache
 C:\Users\Sistemas-08\Documents\Git repos\dotNet\Online\Online\obj\Debug\Online.exe
 C:\Users\Sistemas-08\Documents\Git repos\dotNet\Online\Online\obj\Debug\Online.pdb
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\Online\Online\obj\Debug\Online.FrmImperative.resources
