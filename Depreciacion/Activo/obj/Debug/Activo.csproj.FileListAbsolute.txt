@@ -1,0 +1,11 @@
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\Depreciacion\Activo\bin\Debug\Activo.exe.config
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\Depreciacion\Activo\bin\Debug\Activo.exe
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\Depreciacion\Activo\bin\Debug\Activo.pdb
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\Depreciacion\Activo\obj\Debug\Activo.csprojAssemblyReference.cache
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\Depreciacion\Activo\obj\Debug\Activo.Activo.resources
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\Depreciacion\Activo\obj\Debug\Activo.Properties.Resources.resources
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\Depreciacion\Activo\obj\Debug\Activo.csproj.GenerateResource.cache
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\Depreciacion\Activo\obj\Debug\Activo.csproj.CoreCompileInputs.cache
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\Depreciacion\Activo\obj\Debug\Activo.exe
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\Depreciacion\Activo\obj\Debug\Activo.pdb
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\Depreciacion\Activo\obj\Debug\Activo.FrmMdi.resources
