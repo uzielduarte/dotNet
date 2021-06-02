@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Activo.poco1
 {
-    class ActivoFijo
+    public class ActivoFijo
     {
         public string nombre { get; set; }
         public string codigo { get; set; }
