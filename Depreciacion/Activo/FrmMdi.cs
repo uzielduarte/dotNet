@@ -23,5 +23,10 @@ namespace Activo
             a.MdiParent = this;
             a.Show();
         }
+
+        private void FrmMdi_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

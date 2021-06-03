@@ -9,3 +9,14 @@ C:\Users\Sistemas-08\Documents\Git repos\dotNet\Depreciacion\Activo\obj\Debug\Ac
 C:\Users\Sistemas-08\Documents\Git repos\dotNet\Depreciacion\Activo\obj\Debug\Activo.exe
 C:\Users\Sistemas-08\Documents\Git repos\dotNet\Depreciacion\Activo\obj\Debug\Activo.pdb
 C:\Users\Sistemas-08\Documents\Git repos\dotNet\Depreciacion\Activo\obj\Debug\Activo.FrmMdi.resources
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Depreciacion\Activo\bin\Debug\Activo.exe.config
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Depreciacion\Activo\bin\Debug\Activo.exe
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Depreciacion\Activo\bin\Debug\Activo.pdb
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Depreciacion\Activo\obj\Debug\Activo.csprojAssemblyReference.cache
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Depreciacion\Activo\obj\Debug\Activo.Activo.resources
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Depreciacion\Activo\obj\Debug\Activo.FrmMdi.resources
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Depreciacion\Activo\obj\Debug\Activo.Properties.Resources.resources
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Depreciacion\Activo\obj\Debug\Activo.csproj.GenerateResource.cache
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Depreciacion\Activo\obj\Debug\Activo.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Depreciacion\Activo\obj\Debug\Activo.exe
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Depreciacion\Activo\obj\Debug\Activo.pdb
