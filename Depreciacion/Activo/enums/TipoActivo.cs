@@ -10,6 +10,9 @@ namespace Activo.enums
     {
         EDIFICIO,
         VEHICULO,
-        MAQUINARIA
+        MAQUINARIA,
+        MOBILIARIA,
+        EQUIPO_DE_OFICINA,
+        EQUIPO_DE_COMPUTO
     }
 }

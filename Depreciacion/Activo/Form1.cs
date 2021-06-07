@@ -20,7 +20,6 @@ namespace Activo
         {
             InitializeComponent();
             loadTipoActivo();
-            activoFijoModel = new ActivoFijoModel();
         }
 
         private void Label5_Click(object sender, EventArgs e)
@@ -39,6 +38,7 @@ namespace Activo
                          .Cast<object>()
                          .ToArray());
             cmbTipoActivo.SelectedIndex = 0;
+            activoFijoModel = new ActivoFijoModel();
         }
 
         private void validateActivoFijo(string codigo, string nombre,

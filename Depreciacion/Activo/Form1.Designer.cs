@@ -84,7 +84,7 @@
             this.txtValorResidual.Location = new System.Drawing.Point(256, 145);
             this.txtValorResidual.Margin = new System.Windows.Forms.Padding(4);
             this.txtValorResidual.Name = "txtValorResidual";
-            this.txtValorResidual.Size = new System.Drawing.Size(132, 22);
+            this.txtValorResidual.Size = new System.Drawing.Size(160, 22);
             this.txtValorResidual.TabIndex = 9;
             // 
             // txtValor
@@ -92,7 +92,7 @@
             this.txtValor.Location = new System.Drawing.Point(257, 116);
             this.txtValor.Margin = new System.Windows.Forms.Padding(4);
             this.txtValor.Name = "txtValor";
-            this.txtValor.Size = new System.Drawing.Size(132, 22);
+            this.txtValor.Size = new System.Drawing.Size(159, 22);
             this.txtValor.TabIndex = 8;
             // 
             // txtNombre
@@ -100,7 +100,7 @@
             this.txtNombre.Location = new System.Drawing.Point(257, 57);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(132, 22);
+            this.txtNombre.Size = new System.Drawing.Size(159, 22);
             this.txtNombre.TabIndex = 6;
             // 
             // txtCodigo
@@ -108,7 +108,7 @@
             this.txtCodigo.Location = new System.Drawing.Point(257, 25);
             this.txtCodigo.Margin = new System.Windows.Forms.Padding(4);
             this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(132, 22);
+            this.txtCodigo.Size = new System.Drawing.Size(159, 22);
             this.txtCodigo.TabIndex = 5;
             // 
             // label5
@@ -209,7 +209,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(539, 543);
+            this.ClientSize = new System.Drawing.Size(519, 533);
             this.Controls.Add(this.dgvActivos);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.groupBox1);
