@@ -1,0 +1,10 @@
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\Empleado\ClasePractica\bin\Debug\ClasePractica.exe.config
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\Empleado\ClasePractica\bin\Debug\ClasePractica.exe
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\Empleado\ClasePractica\bin\Debug\ClasePractica.pdb
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\Empleado\ClasePractica\obj\Debug\ClasePractica.csprojAssemblyReference.cache
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\Empleado\ClasePractica\obj\Debug\ClasePractica.Empleado.resources
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\Empleado\ClasePractica\obj\Debug\ClasePractica.Properties.Resources.resources
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\Empleado\ClasePractica\obj\Debug\ClasePractica.csproj.GenerateResource.cache
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\Empleado\ClasePractica\obj\Debug\ClasePractica.csproj.CoreCompileInputs.cache
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\Empleado\ClasePractica\obj\Debug\ClasePractica.exe
+C:\Users\Sistemas-08\Documents\Git repos\dotNet\Empleado\ClasePractica\obj\Debug\ClasePractica.pdb
