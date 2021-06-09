@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClasePractica.pojo;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -70,6 +71,29 @@ namespace ClasePractica.model
         }
 
         public Empleado[] getAll()
+        {
+            return empleados;
+        }
+
+        public Empleado GetEmpleado(int index)
+        {
+            return empleados[index];
+        }
+
+        public void Acutalizar(int index, Empleado e)
+        {
+            empleados[index].id = e.id;
+            empleados[index].nombre = e.nombre;
+            empleados[index].apellido = e.apellido;
+            empleados[index].cedula = e.cedula;
+            empleados[index].telefono = e.telefono;
+            empleados[index].correo = e.correo;
+            empleados[index].salario = e.salario;
+            empleados[index].profesion = e.profesion;
+            empleados[index].cargo = e.cargo;
+        }
+
+        public Empleado[] GetEmpleados()
         {
             return empleados;
         }
