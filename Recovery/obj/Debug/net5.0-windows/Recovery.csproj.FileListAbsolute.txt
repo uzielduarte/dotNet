@@ -1,0 +1,36 @@
+C:\Users\LENOVO\OneDrive\Escritorio\Recovery\bin\Debug\net5.0-windows\Recovery.exe
+C:\Users\LENOVO\OneDrive\Escritorio\Recovery\bin\Debug\net5.0-windows\Recovery.deps.json
+C:\Users\LENOVO\OneDrive\Escritorio\Recovery\bin\Debug\net5.0-windows\Recovery.runtimeconfig.json
+C:\Users\LENOVO\OneDrive\Escritorio\Recovery\bin\Debug\net5.0-windows\Recovery.runtimeconfig.dev.json
+C:\Users\LENOVO\OneDrive\Escritorio\Recovery\bin\Debug\net5.0-windows\Recovery.dll
+C:\Users\LENOVO\OneDrive\Escritorio\Recovery\bin\Debug\net5.0-windows\ref\Recovery.dll
+C:\Users\LENOVO\OneDrive\Escritorio\Recovery\bin\Debug\net5.0-windows\Recovery.pdb
+C:\Users\LENOVO\OneDrive\Escritorio\Recovery\obj\Debug\net5.0-windows\Recovery.csprojAssemblyReference.cache
+C:\Users\LENOVO\OneDrive\Escritorio\Recovery\obj\Debug\net5.0-windows\Recovery.Form1.resources
+C:\Users\LENOVO\OneDrive\Escritorio\Recovery\obj\Debug\net5.0-windows\Recovery.csproj.GenerateResource.cache
+C:\Users\LENOVO\OneDrive\Escritorio\Recovery\obj\Debug\net5.0-windows\Recovery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\OneDrive\Escritorio\Recovery\obj\Debug\net5.0-windows\Recovery.AssemblyInfoInputs.cache
+C:\Users\LENOVO\OneDrive\Escritorio\Recovery\obj\Debug\net5.0-windows\Recovery.AssemblyInfo.cs
+C:\Users\LENOVO\OneDrive\Escritorio\Recovery\obj\Debug\net5.0-windows\Recovery.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\OneDrive\Escritorio\Recovery\obj\Debug\net5.0-windows\Recovery.dll
+C:\Users\LENOVO\OneDrive\Escritorio\Recovery\obj\Debug\net5.0-windows\ref\Recovery.dll
+C:\Users\LENOVO\OneDrive\Escritorio\Recovery\obj\Debug\net5.0-windows\Recovery.pdb
+C:\Users\LENOVO\OneDrive\Escritorio\Recovery\obj\Debug\net5.0-windows\Recovery.genruntimeconfig.cache
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Recovery\bin\Debug\net5.0-windows\Recovery.exe
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Recovery\bin\Debug\net5.0-windows\Recovery.deps.json
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Recovery\bin\Debug\net5.0-windows\Recovery.runtimeconfig.json
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Recovery\bin\Debug\net5.0-windows\Recovery.runtimeconfig.dev.json
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Recovery\bin\Debug\net5.0-windows\Recovery.dll
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Recovery\bin\Debug\net5.0-windows\ref\Recovery.dll
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Recovery\bin\Debug\net5.0-windows\Recovery.pdb
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Recovery\obj\Debug\net5.0-windows\Recovery.csprojAssemblyReference.cache
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Recovery\obj\Debug\net5.0-windows\Recovery.Form1.resources
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Recovery\obj\Debug\net5.0-windows\Recovery.csproj.GenerateResource.cache
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Recovery\obj\Debug\net5.0-windows\Recovery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Recovery\obj\Debug\net5.0-windows\Recovery.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Recovery\obj\Debug\net5.0-windows\Recovery.AssemblyInfo.cs
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Recovery\obj\Debug\net5.0-windows\Recovery.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Recovery\obj\Debug\net5.0-windows\Recovery.dll
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Recovery\obj\Debug\net5.0-windows\ref\Recovery.dll
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Recovery\obj\Debug\net5.0-windows\Recovery.pdb
+C:\Users\LENOVO\Documents\Uziel\Git repos\dotNet\Recovery\obj\Debug\net5.0-windows\Recovery.genruntimeconfig.cache
